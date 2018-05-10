@@ -1,0 +1,19 @@
+{
+  "name": "@humanstuff/jsua-markdown-it",
+  "version": "0.1.0",
+  "description": "A jsua module for markdown content.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "prepublish": "npm run build"
+  },
+  "author": "humanstuff",
+  "license": "MIT",
+  "dependencies": {
+    "markdown-it": "^8.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-env": "^1.1.8"
+  }
+}
